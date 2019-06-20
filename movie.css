@@ -1,3 +1,4 @@
+
 body{
     background: #8d8c8c;
 }
@@ -57,4 +58,8 @@ margin:8px;
 }
 #sign-up:hover{
     background: rgb(51, 134, 51);
+}
+
+.navbar {
+    background: rgb(31, 29, 29);
 }
