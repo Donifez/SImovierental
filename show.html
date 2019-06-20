@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="movie.css">
+</head>
+
+<body>
+    <div class="total">
+        <div class="top">
+            <header>
+                <nav>
+                        <img id="logo" src="http://i64.tinypic.com/312zdpy.png" alt="logo">
+                    <ul>
+                        <li id="Genre"><a href="#">Genre</a></li>
+                      
+                        <!-- <li id="input"><input type="text" name=" "></li>
+                        <li id="search"><button>Search</button></li> -->
+                        <li id="Home"><a href="home.html">Home</a></li>
+                        <li id="search"><form id="searcher"> <input id="search-api" type="search"></form></li>
+                        
+                        <li id="Settings"><a href="#">Settings</a></li>
+                        <li id="logout"><a href="index.html"><span>Log out</span></a></li>
+                   
+
+                    </ul>
+                </nav>
+            </header>
+
+        </div>
+
+        <div id="movie" class="well"></div>
+      
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ <script src="script.js"></script>
+    <script>
+    getMovie();
+    
+    
+    </script>
+    </body>
