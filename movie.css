@@ -1,5 +1,5 @@
 body{
-    background: #000000;
+    background: #8d8c8c;
 }
 
 .index{
@@ -18,13 +18,10 @@ body{
 }
 #create{
     color:white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
 }
-#free{
-    color:white;
-    font-size: 2rem;
-}
+
 #fnames,#snames{
     border-radius: 10px;
     margin:3px;
@@ -38,6 +35,10 @@ body{
     color:white;
  margin-left:5px;
 }
+#latest{
+    color:yellow;  
+    margin-bottom:1.5em;
+}
 select{
 width:100px;
 border-radius:5px;
@@ -49,7 +50,7 @@ margin:8px;
 }
 #sign-up{
     border-radius: 15px;
-    width:40%;
+    width:30%;
     background:rgb(20, 212, 20);
     
     color:white;
