@@ -2,7 +2,9 @@
 body{
     background: #000000;
 }
-
+.navbar{
+    background: #1d1b1b;
+}
 .index{
     display: flex;
 }
@@ -30,7 +32,7 @@ img.card-img-top {
 
     background: #000000;
 }
-.card-title, .card-text{
+.card-title, .card-text, #searcher{
     color: #fff;
 }
 #create{
@@ -63,18 +65,4 @@ margin:8px;
 #why,#agreement,.check{
     color:white;
     margin-left:5px;
-}
-#sign-up{
-    border-radius: 15px;
-    width:40%;
-    background:rgb(20, 212, 20);
-    
-    color:white;
-}
-#sign-up:hover{
-    background: rgb(51, 134, 51);
-}
-
-.navbar {
-    background: rgb(31, 29, 29);
 }
