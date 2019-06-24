@@ -1,6 +1,6 @@
 
 body{
-    background: #000000;
+    background: #8d8c8c;
 }
 .navbar{
     background: #1d1b1b;
@@ -37,13 +37,10 @@ img.card-img-top {
 }
 #create{
     color:white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bolder;
 }
-#free{
-    color:white;
-    font-size: 2rem;
-}
+
 #fnames,#snames{
     border-radius: 10px;
     margin:3px;
@@ -57,6 +54,10 @@ img.card-img-top {
     color:white;
  margin-left:5px;
 }
+#latest{
+    color:yellow;  
+    margin-bottom:1.5em;
+}
 select{
 width:100px;
 border-radius:5px;
@@ -66,3 +67,4 @@ margin:8px;
     color:white;
     margin-left:5px;
 }
+
