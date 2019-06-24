@@ -2,13 +2,24 @@
 body{
     background: #8d8c8c;
 }
-
+.navbar{
+    background: #1d1b1b;
+}
 .index{
     display: flex;
 }
-.i-size{
-    width: 180px;
-    height:200px;
+
+h2{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+img.card-img-top {
+    width:197px;
+    height: 293px;
     margin:10px;
 }
 .card-body{
@@ -16,6 +27,13 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin:10px;
+}
+.card{
+
+    background: #000000;
+}
+.card-title, .card-text, #searcher{
+    color: #fff;
 }
 #create{
     color:white;
@@ -49,17 +67,4 @@ margin:8px;
     color:white;
     margin-left:5px;
 }
-#sign-up{
-    border-radius: 15px;
-    width:30%;
-    background:rgb(20, 212, 20);
-    
-    color:white;
-}
-#sign-up:hover{
-    background: rgb(51, 134, 51);
-}
 
-.navbar {
-    background: rgb(31, 29, 29);
-}
